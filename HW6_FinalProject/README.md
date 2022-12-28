@@ -1,15 +1,29 @@
 # HW1 Image Rotation
 
-## 程式功能
-1. 讀寫影像檔案並對影像進行旋轉與存檔。
-2. 本程式可讀入的影像檔格式包含JPG檔、BMP檔，以及PPM檔，輸出的影像檔格式則為BMP檔。
+## ![Whole Demo Viedoe(3 min)](/Images/.jpg)
 
-## 程式流程
-本程式共有四組按鈕(Button)，分別為Select Image, Rotation, Save, Exit。每按下一次旋轉按鈕代表，旋轉90度。按下兩次，則旋轉180度。以此類推。欲將旋轉過後的圖片儲存，請按下Save按鈕，並填入存檔檔名。（注意：無需自行填入檔案格式，程式會自動帶入）欲將程式結束，請按下Exit。
+## Difinition & Hypothesis
+![](/Images/hw6_1.jpg)
 
-## 測試結果
-![](/images/data_intro.jpg)
-![](/images/data_intro.jpg)
+## Flow Chart
+![](/Images/hw6_2.jpg)
+## The Detailed Process Decription
+### Dataset
+![](/Images/hw6_3.jpg)
+### Binarization
+![](/Images/hw6_4.jpg)
+### Region Of Interest 
+![](/Images/hw6_5.jpg)
 
-## 心得
-初次嘗試用Python寫出一個簡單的GUI介面，實在非常有趣。至於一開始想要用矩陣運算的方式將圖片進行反轉，殊不知一開始只考慮到正方形圖片的性質，而沒有想到要怎麼將長方形圖片進行反轉，最後使用pyqt中QTransform來處理。整體下來，比較困難的點是一開始要怎麼上手新的套件，再來是怎麼好好使用Class的特性，把程式寫得更加清楚。
+## Demo
+![](/Images/hw6_6.jpg)
+![](/Images/hw6_7.jpg)
+
+## Conclusion
+1. 驗證準確率：0.90
+2. 驗證準確率雖然高，但若手勢角度不同，依舊難以辨別。
+3. 可以嘗試用更多不同角度的Data進行訓練，效果可能會更好。
+
+
+## Reference
+![Wylie_SUN](https://github.com/WZS666/hand_gesture_prediction)
