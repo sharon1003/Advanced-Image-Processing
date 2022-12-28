@@ -26,4 +26,4 @@
 
 
 ## Reference
-![Wylie_SUN](https://github.com/WZS666/hand_gesture_prediction)
+[Wylie_SUN](https://github.com/WZS666/hand_gesture_prediction)
