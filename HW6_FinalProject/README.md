@@ -1,6 +1,6 @@
 # Final Project: Hand Gesture Recognition
 
-## [Whole Demo Viedoe(3 min)](https://youtu.be/k7tz90JTxV4)
+## [Demo Viedoe(3 min)](https://youtu.be/k7tz90JTxV4)
 
 ## Difinition & Hypothesis
 ![](/Images/hw6_1.jpg)
